@@ -1,7 +1,7 @@
 const sentence = "hello there from lighthouse labs";
-let delay = 0;
 
 const typewriter = (sent) => {
+  let delay = 0;
   sent += "\n";
   for (const char of sent) {
     delay += 50;
